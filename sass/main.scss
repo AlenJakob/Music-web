@@ -1,0 +1,36 @@
+// Modules and Variables
+@import "utils/var";
+@import "base/base";
+
+// icons
+@import "components/icons";
+// sections
+
+@import "components/section-one";
+@import "components/section-two";
+@import "components/section-three";
+@import "components/section-four";
+@import "components/section-five";
+@import "components/section-six";
+@import "components/section-seven";
+@import "components/section-eight";
+@import "components/media-queries";
+@import "components/footer";
+@import "components/buttons";
+
+@import "components/silver";
+//menu toggle settings
+@import "utilites/toggle-menu";
+// fixed menu settings
+@import "utilites/fixed-menu";
+// login form
+@import "components/login-form";
+// pallete-colors
+@import "themes/pallete-colors";
+
+// fonts
+// font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');

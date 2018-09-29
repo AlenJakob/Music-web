@@ -1,0 +1,91 @@
+.footer{
+  height: auto;
+  display: flex;
+  background: rgba(31,31,31,1);
+  color:#fff;
+  padding: 6rem 2rem;
+  &__left{
+    padding:0 3rem;
+    width: 33.33%;
+    .logo{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+    letter-spacing: 6px;
+    padding: 0;
+    margin: 0;
+    }
+    .sentence{
+      color:darkgrey;
+      font-size: 130%;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+  }
+  &__middle{
+  width: 33.33%;
+      padding: 0 3rem;
+  .contact{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+    letter-spacing: 6px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 14%;
+
+    &-list{
+      font-size: 150%;
+    .addres{
+      margin-top:15%;
+    }
+      li{
+        cursor: pointer;
+        list-style: none;
+        margin-bottom: 5%;
+
+        span:first-child{
+          color:grey;
+          margin-right: 3%;
+        }
+        span:last-child{
+          &:hover{
+            transition: $def-transition;
+            color:crimson;
+          }
+        }
+      }
+    }
+  }
+  }
+  &__right{
+  padding: 0 3rem;
+  width: 33.33%;
+  .email{
+    padding: .5rem 2rem;
+    font-size: 130%;
+    margin:2rem 0;
+  }
+  .newsletter{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+    letter-spacing: 6px;
+    padding: 0;
+    margin: 0;
+  }
+  }
+&-article{
+  font-size: 150%;
+  margin:2rem 0;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-weight: 100;
+}
+}
+.footer__copy{
+  color:grey;
+  background: black;
+  padding: 2rem 0;
+  text-align: center;
+}

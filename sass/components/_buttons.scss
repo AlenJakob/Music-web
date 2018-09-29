@@ -1,0 +1,15 @@
+.btn-header{
+  padding:1rem 3rem;
+  margin:3rem 0;
+  border: none;
+  background: none;
+  font-size:150%;
+  color:white;
+  border:3px solid  crimson;
+  border-radius:$def-border-radius;
+  transition: $def-transition;
+  cursor: pointer;
+  &:hover{
+    background: crimson;
+  }
+}

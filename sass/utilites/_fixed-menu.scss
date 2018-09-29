@@ -1,0 +1,23 @@
+.fixed{
+  position: fixed;
+  z-index: 120;
+  background: #000;
+  left:107px!important;
+  border-bottom-right-radius: $def-border-radius;
+  border-bottom-left-radius: $def-border-radius;
+  box-shadow:inset 0 0 0 1px #fff;
+  padding: 1.6rem 2rem;
+  li{
+    margin-right: 1rem;
+
+  }
+
+}
+
+.fixed-left__icon{
+    position: fixed;
+}
+.fixed-right__icon{
+    position: fixed;
+    top:110px;
+}

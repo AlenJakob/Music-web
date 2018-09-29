@@ -1,0 +1,38 @@
+.section-two{
+  height: auto;
+  background: #000;
+  color:#fff;
+  padding: 4rem 8rem 10rem 8rem;
+  &__header{
+    font-size: 350%;
+    font-weight: 100;
+    text-align: center;
+  }
+  &-circles{
+    display: flex;
+    justify-content: space-around;
+
+
+
+    span{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: $circle;
+      width:330px;
+      height: 330px;
+      box-shadow: inset 0 0 0 15px crimson,0 0 15px crimson;
+      font-size: 4.5rem;
+      font-weight: 100;
+      text-align: center;
+
+    }
+    p{
+      color:rgba(250,250,250,.8);
+      padding: 0;
+      margin: 0;
+      font-size: 35%;
+    }
+  }
+}

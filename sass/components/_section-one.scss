@@ -1,0 +1,47 @@
+.container{
+  &-section-one{
+    padding:$main-padding;
+    &-header{
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 100;
+
+    }
+    &__box{
+      padding: $main-padding-horizontal;
+      margin-bottom:4rem;
+      font-size: 150%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+}
+.box-icon{
+  padding:1rem;
+  margin:.2rem;
+  width:33.33%;
+  // height:350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h3{
+    font-size:180%;
+    font-weight: 100;
+  }
+  article{
+    color:rgba(0,0,0,.5);
+    font-size:100%;
+    text-align: justify;
+  }
+}
+.bottom-box-icons,.top-box-icons{
+  width:100%;
+  display: flex;
+
+}
+.top-box-icons{
+      margin-bottom: 8rem;
+}

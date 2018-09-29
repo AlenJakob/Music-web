@@ -1,0 +1,40 @@
+.section-four{
+  height: auto;
+  background: rgba(150,30,30,.041);
+  padding: $main-padding;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  &-header{
+    font-size: 310%;
+    color:#333;
+    font-weight: 300;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: center;
+    &-content{
+      text-align: center;
+      font-weight: 700;
+      font-size: 140%;
+      color:#666;
+      padding:0 5rem;
+      line-height: 50px;
+
+    }
+  }&-logo-box{
+    display: flex;
+    padding: 6rem 5rem 4rem 5rem;
+    margin: $def-margin-vertical-bottom;
+    justify-content: space-between;
+  }
+}
+.logo-img{
+  transition: .2s;
+  cursor: pointer;
+  width:120px;
+  opacity: .6;
+  &:hover{
+    opacity: 1;
+    transform: scale(1.23)skew(4deg)rotate(3deg);
+  }
+}

@@ -1,0 +1,117 @@
+
+
+body{
+  background: rgba(255,255,255,1);
+  padding: 0;
+  margin: 0;
+  font-family: calibri;
+  overflow-x: hidden;
+}
+ul,.logo h1{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  overflow-x: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__header{
+    color:white;
+    width: 100%;
+    background:rgba(0,0,0,1);
+    &-slider{
+      height: 600px;
+      padding:$main-padding;
+      position: relative;
+      &_header{
+        color:lightblue;
+        font-size:4rem;
+        font-weight: 100;
+        text-transform: uppercase;
+      }
+      &_content{
+        max-width: 55%;
+        text-align: justify;
+        font-size:170%;
+        font-weight: 100;
+        line-height: 155%;
+      }
+    }
+    &-navbar__main{
+         display: flex;
+         justify-content: space-between;
+         padding:$main-padding;
+         // border-bottom:2px solid rgba(150,0,0,.6);
+      li{
+        list-style:none;
+        font-size: 1.3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+        &:hover{
+            &::after{
+                  width: 100%;
+            }
+        }
+        &::after{
+          transition: $def-transition;
+          content: "";
+          position: absolute;
+          left:0;
+          bottom:0;
+          width: 0;
+          height: 5px;
+          background: white;
+        }
+        &:last-child::after,
+        &:first-child::after{
+            background: none;
+          }
+        a{
+          padding:.5rem .11rem;
+          color:white;
+          text-decoration: none;
+
+        }
+        &.bigbtn{
+          transition:$def-transition;
+          color:darkcyan;
+          background: white;
+          border-radius: 10px;
+          height:30px;
+          padding: 1rem 3rem;
+          margin-top: -15px;
+          cursor: pointer;
+          &:hover{
+            color:white;
+            background: crimson;
+          }
+        }
+
+      }
+      .logo{
+        font-family: 'Roboto', sans-serif;
+        font-size: 250%;
+        width:25%;
+        letter-spacing: 3px;
+      }
+     }
+  }
+
+}
+.img-head{
+  background: url("/img/head.png");
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top:0;
+
+}
+.icon-crimson{
+  color:rgba(220,20,60,.8);
+}

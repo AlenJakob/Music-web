@@ -1,0 +1,45 @@
+.left-icon{
+  position: absolute;
+  top:0;
+  left:0;
+  padding:1rem;
+  border-radius: $def-border-radius;
+  background: goldenrod;
+  cursor: pointer;
+  transition: $def-transition;
+  z-index: 180;
+  &_img{
+    width:68px;
+    height: 40px;
+    opacity:.81;
+  }
+  &:hover img{
+          opacity:1;
+  }
+  &.left-icon:hover {
+    background: crimson;
+  }
+}
+.right-icon{
+  z-index: 250;
+  position: fixed;
+  right:0;
+  padding:1rem;
+  background: crimson;
+  border-radius: $def-border-radius;
+   transition:$def-transition;
+  cursor: pointer;
+&_img{
+  width:50px;
+  height: 40px;
+}
+  &:hover img{
+          transform: scale(1.2);
+
+
+
+  }
+}
+.right-icon_img,.left-icon_img{
+  transition: $def-transition;
+}
