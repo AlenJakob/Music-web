@@ -83,7 +83,7 @@ ul, .logo h1 {
         letter-spacing: 3px; }
 
 .img-head {
-  background: url("/img/head.png");
+  background: url("../img/head.png");
   background-size: cover;
   background-position: center;
   width: 45%;
