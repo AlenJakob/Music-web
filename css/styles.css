@@ -341,7 +341,7 @@ ul, .logo h1 {
     border: 1px solid crimson; }
 
 .section-six {
-  background: url("/img/six.jpg");
+  background: url("../img/six.jpg");
   background-size: cover;
   background-attachment: fixed;
   box-shadow: inset 15rem 15rem 20rem #0b0b0b;
@@ -370,7 +370,7 @@ ul, .logo h1 {
     height: 100%; }
   .section-seven-left {
     min-height: 664px;
-    background: linear-gradient(rgba(222, 20, 60, 0.55), rgba(222, 20, 60, 0.55)), url("/img/workplace.jpg");
+    background: linear-gradient(rgba(222, 20, 60, 0.55), rgba(222, 20, 60, 0.55)), url("../img/workplace.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -817,7 +817,7 @@ ul, .logo h1 {
   border-color: grey; }
 
 .silver .section-seven-left {
-  background: linear-gradient(rgba(22, 20, 60, 0.55), rgba(22, 20, 60, 0.55)), url(/img/workplace.jpg);
+  background: linear-gradient(rgba(22, 20, 60, 0.55), rgba(22, 20, 60, 0.55)), url(../img/workplace.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -861,7 +861,7 @@ ul, .logo h1 {
   border-color: royalblue; }
 
 .royal-blue .section-seven-left {
-  background: linear-gradient(rgba(22, 20, 220, 0.55), rgba(22, 20, 220, 0.55)), url(/img/workplace.jpg);
+  background: linear-gradient(rgba(22, 20, 220, 0.55), rgba(22, 20, 220, 0.55)), url(../img/workplace.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -901,7 +901,7 @@ ul, .logo h1 {
   border-color: darkorange; }
 
 .gold .section-seven-left {
-  background: linear-gradient(rgba(238, 232, 170, 0.55), rgba(238, 232, 170, 0.55)), url(/img/workplace.jpg);
+  background: linear-gradient(rgba(238, 232, 170, 0.55), rgba(238, 232, 170, 0.55)), url(../img/workplace.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -935,7 +935,7 @@ ul, .logo h1 {
   border-color: DarkSlateGrey; }
 
 .dark-slate-grey .section-seven-left {
-  background: linear-gradient(rgba(49, 79, 79, 0.55), rgba(47, 79, 79, 0.55)), url(/img/workplace.jpg);
+  background: linear-gradient(rgba(49, 79, 79, 0.55), rgba(47, 79, 79, 0.55)), url(../img/workplace.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -1092,7 +1092,7 @@ ul, .logo h1 {
     border-color: royalblue; }
 
 .section-seven-royalblue {
-  background: linear-gradient(rgba(20, 60, 222, 0.55), rgba(20, 60, 222, 0.55)), url(/img/workplace.jpg);
+  background: linear-gradient(rgba(20, 60, 222, 0.55), rgba(20, 60, 222, 0.55)), url(../img/workplace.jpg);
   background-size: cover;
   background-position: center; }
 
