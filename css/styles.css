@@ -65,6 +65,8 @@ ul, .logo h1 {
           color: white;
           text-decoration: none; }
         .container__header-navbar__main li.bigbtn {
+          text-align: center;
+          font-size:90%;
           transition: 0.3s;
           color: darkcyan;
           background: white;
