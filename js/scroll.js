@@ -22,7 +22,7 @@ window.addEventListener('scroll', function() {
     leftIcon.classList.remove("fixed-left__icon");
     bigbtn.style.display = "block";
     logo.style.fontSize = '250%';
-    console.log(direct)
+//     console.log(direct)
   }
   // else if(window.scrollY == 0){
   //   menu.classList.remove("fixed")
