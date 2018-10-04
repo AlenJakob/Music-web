@@ -536,7 +536,7 @@ ul, .logo h1 {
     border: 5px solid #000;
     box-shadow: inset 0 0 0 2px white;
     position: fixed;
-    left: 105px;
+    right: 5px;
     top: 0;
     display: flex;
     justify-content: center;
