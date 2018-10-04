@@ -12,10 +12,10 @@ toggle.classList.toggle("hide-toggle-btn")
 toggle.classList.toggle("arrow")
 });
 //
-rightBtn.addEventListener("click", ()=>{
-  rightBtn.classList.toggle("move-btn-login")
-  loginForm.classList.toggle("form-move")
-});
+// rightBtn.addEventListener("click", ()=>{
+//   rightBtn.classList.toggle("move-btn-login")
+//   loginForm.classList.toggle("form-move")
+// });
 //
 // cannot ready addEventListener of null ? //
 
