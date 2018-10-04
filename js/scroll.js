@@ -6,7 +6,7 @@ const rightIcon = document.querySelector(".right-icon");
 const logo = document.querySelector(".logo");
 const bigbtn = document.querySelector(".bigbtn");
 const palleteColor = document.querySelector(".pallete-colors");
-console.log(direct)
+
 
 window.addEventListener('scroll', function() {
 
