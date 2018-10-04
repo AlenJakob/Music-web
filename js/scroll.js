@@ -13,7 +13,7 @@ window.addEventListener('scroll', function() {
   if (window.scrollY > nr) {
     menu.classList.add("fixed");
     leftIcon.classList.add("fixed-left__icon");
-    rightIcon.classList.add("fixed-right__icon");
+//     rightIcon.classList.add("fixed-right__icon");
     bigbtn.style.display = "none";
     logo.style.fontSize = '70%';
 
@@ -34,6 +34,4 @@ leftIcon.addEventListener("click" , ()=>{
 leftIcon.classList.toggle("left-icon-move");
 palleteColor.classList.toggle("left-bar-move")
 })
-// if () {
-//   window.scroll(0, 0);  // reset the scroll position to the top left of the document.
-// }
+
