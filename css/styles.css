@@ -500,9 +500,10 @@ ul, .logo h1 {
   #menu {
     padding-top: 6rem; }
   .container__header-navbar__main {
+    right: 10px;
     position: relative;
     padding: 2rem 0;
-    padding-left: 8rem;
+    padding-left: 2rem;
     flex-direction: column;
     max-width: 350px;
     min-width: 50%;
