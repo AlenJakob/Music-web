@@ -10,5 +10,5 @@
 
  - HTML5
  - CSS3 
- - Sass ( Scss )
+ - SASS ( SCSS )
  - JavaScript
