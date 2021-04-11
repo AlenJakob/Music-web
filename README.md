@@ -6,3 +6,9 @@
   - Full responsive website
   - Color changer 
 
+## Stack
+
+ - HTML5
+ - CSS3 
+ - Sass ( Scss )
+ - JavaScript
