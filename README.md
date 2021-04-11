@@ -14,4 +14,4 @@
  - JavaScript
 
 ## View
-![project photo](/music_web.png)
+![project photo](/music_web1.png)
