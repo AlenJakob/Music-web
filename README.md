@@ -1,4 +1,4 @@
-# Music-web
+## Music-web
 
 
 - Description
@@ -14,4 +14,4 @@
  - JavaScript
 
 ## View
-!(/music_web.png)
+![project photo](/music_web.png)
