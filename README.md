@@ -12,3 +12,6 @@
  - CSS3 
  - SASS ( SCSS )
  - JavaScript
+
+## View
+!(/music_web.png)
